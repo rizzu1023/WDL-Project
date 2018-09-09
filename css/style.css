@@ -1,0 +1,100 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header nav{
+    width: 100vw;
+    background: #aebcbf;
+    height: 70px;  
+    padding-right: 50px;
+    padding-top: 15px;
+}
+
+header nav ul{
+    float: right;
+    height: 70px;
+    
+}
+
+
+header nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 35px;
+}
+
+.logo{
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+    top: 20px;
+}
+
+
+.myrow{
+    /* background: lightgreen; */
+
+}
+
+.mycol{
+    height: 500px;
+    /* width: 100%; */
+}
+
+.grid1{
+    width: 100vw;
+    height: 400px;
+    background: lightgreen;
+}
+
+.grid2{
+    /* background: lightblue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    height: 300px;
+    width: 100vw;
+    padding: 20px;
+}
+
+.grid2 div{
+    position: relative;
+    width: auto;
+    height: auto;
+    /* text-decoration: none; */
+    /* background:lightyellow; */
+}
+.grid2-1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.grid2 div img{
+    height: 100%;
+    width:100%;
+}
+
+.grid2-1{
+    /* background: lightcoral; */
+    background-image: url('../images/jaggajasoos.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.grid2-1 .caption{
+    position: absolute;
+    bottom: 0%;
+    height: 30%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    z-index: 3;
+    color: white;
+    padding: 10px;
+
+}
+
+.grid2-1 .btn1{
+    border-radius: 10px;
+}
