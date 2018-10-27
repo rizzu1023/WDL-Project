@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 20px;
 }
 
 body {
@@ -271,7 +271,159 @@ body {
   left: 6rem;
   top: 13rem;
 }
+.section1__0 h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
 
+.grid {
+  width: 100%;
+  height: 270px;
+  background-color: #e0e0e0;
+  box-shadow: 0px -2px 6px #5f5f5f;
+  position: relative;
+  margin-top: 60px;
+  bottom: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid > div {
+  position: relative;
+  /*background-color: lightpink;*/
+  width: auto;
+  display: grid;
+  border-right: 2px solid #fff;
+}
+
+.grid > .Lgrid {
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  padding: 2rem;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 7rem;
+}
+
+.grid > .Rgrid {
+  grid-template-columns: 1fr;
+  grid-gap: 0.8rem;
+  padding: 1rem;
+}
+
+.cHead {
+  align-self: end;
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  top: 15px;
+}
+
+.cBody {
+  grid-row: 2/4;
+  padding-right: 50px;
+  padding-left: 50px;
+  height: 120px;
+  padding-top: 20px;
+}
+
+.social {
+  height: 45px;
+  padding-left: 50px;
+}
+
+.location {
+  position: relative;
+  /*text-align: center;*/
+  top: 0px;
+  padding-top: 20px;
+}
+
+.phoneNo {
+  position: relative;
+  /*text-align: center;*/
+  padding-top: 20px;
+}
+
+.mail {
+  position: relative;
+  padding-top: 20px;
+}
+
+.Lgrid i {
+  position: relative;
+  /*padding-left: 0;*/
+  margin-right: 3px;
+  left: 30px;
+}
+
+div span {
+  position: relative;
+  top: -10px;
+  margin-left: 40px;
+}
+
+.social {
+  position: relative;
+  float: left;
+}
+
+@media (max-width: 320px) {
+  .boxes {
+    grid-template-columns: 1fr;
+    grid-gap: 0.2em;
+    grid-row-gap: 1em;
+    padding: 1em;
+    top: 3em;
+  }
+
+  .heading > h1 {
+    font-size: 16px;
+  }
+
+  .boxes div h3 {
+    font-size: 0.9rem;
+    top: -12px;
+  }
+
+  .boxes > div {
+    width: auto;
+    height: 22em;
+    /*border-radius: 0.2em;*/
+  }
+
+  .boxes div h5 {
+    font-size: 11px;
+  }
+
+  .boxes div div img {
+    height: 288px;
+  }
+
+  .boxes div p {
+    font-size: 13px;
+    top: -45px;
+  }
+
+  .boxes div > div {
+    height: 288px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    font-size: 12px;
+  }
+
+  .grid > .Lgrid {
+    padding-left: 1rem;
+    font-size: 12px;
+  }
+
+  .grid > .Rgrid {
+    height: 420px;
+    width: 100%;
+  }
+}
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -361,6 +513,76 @@ body {
 }
 .login__span a {
   color: blue;
+}
+
+.strong {
+  position: relative;
+  top: 10rem;
+  width: 89vw;
+  height: 130vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  padding: 1rem 7rem;
+}
+.strong div:not(:nth-child(1)) {
+  height: auto;
+  width: auto;
+  background: #e0e0e0;
+  padding: 3rem;
+}
+.strong div:not(:nth-child(1)) span {
+  display: inline-block;
+  font-size: 1.4rem;
+  margin-left: 1.5rem;
+}
+.strong div:not(:nth-child(1)) h3 {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.strong div:not(:nth-child(1)) p {
+  font-size: 1.2rem;
+  display: inline-block;
+}
+.strong__1 {
+  height: 500px;
+  line-height: 300px;
+  background: lightgray;
+}
+.strong__1 img {
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+}
+.strong__1 h1 {
+  display: inline-block;
+  margin-left: 5rem;
+  font-size: 3rem;
+  position: absolute;
+  top: 7%;
+  width: 800px;
+  height: 300px;
+}
+.strong__1 strong {
+  position: relative;
+  float: right;
+  right: 2rem;
+  font-size: 2rem;
+  display: inline-block;
+}
+
+.title2, .title3 {
+  position: absolute;
+  top: 2000px;
+  left: 6rem;
+}
+.title2 h2, .title3 h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.title3 {
+  top: 3750px;
 }
 
 /*# sourceMappingURL=style.css.map */

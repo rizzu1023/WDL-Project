@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="font-size:18px">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,9 +44,9 @@
                 <nav class="navigation">
                     <div class="navigation__icon"><a href="login.php"><i class="fas fa-user"></i></a></div>
                     <div class="navigation__movie"><h3 class="navigation__naac-h3">Movies</h3></div>
-                    <div class="navigation__input"><i class="fas fa-search"></i><input type="text" name="#" placeholder="Search Movie, actor & theatre"></div>
-                    <a href="#"><div class="navigation__div1"><span>Box office</span></div></a>
-                    <a href="#"><div class="navigation__div2"><span>Theatre</span></div></a>
+                    <!-- <div class="navigation__input"><i class="fas fa-search"></i><input type="text" name="#" placeholder="Search Movie, actor & theatre"></div> -->
+                    <!-- <a href="#"><div class="navigation__div1"><span>Box office</span></div></a> -->
+                    <!-- <a href="#"><div class="navigation__div2"><span>Theatre</span></div></a> -->
                     <a href="#"><div class="navigation__div3"><span>About us</span></div></a>
                     <a href="index.php"><div class="navigation__div4"><span>Home</span></div></a>
 
